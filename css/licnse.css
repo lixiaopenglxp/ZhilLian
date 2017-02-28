@@ -1,0 +1,182 @@
+.main {
+  width: 1220px;
+  height: 100%;
+  background: #e8ebf3;
+  margin: 0 auto;
+}
+.main .license_text {
+  font-family: 'Microsoft YaHei';
+}
+.main header {
+  width: 100%;
+  height: 90px;
+  background: #3eaae1;
+  position: relative;
+}
+.main header .logo {
+  width: 117px;
+  height: 42px;
+  background: url(../img/papers.png) no-repeat;
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 80px;
+}
+.main header .title {
+  width: 119px;
+  height: 22px;
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  left: 207px;
+  top: 34px;
+  line-height: 22px;
+  border-left: 1px solid #fff;
+  padding-left: 11px;
+}
+.main header .back {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  top: 37px;
+  right: 94px;
+}
+.main header .enter {
+  color: #fff;
+  font-size: 8px;
+  position: absolute;
+  top: 41px;
+  right: 80px;
+}
+.main section {
+  width: 1140px;
+  height: 766px;
+  margin: 20px auto;
+  background: #fff;
+  position: relative;
+}
+.main section .hint {
+  width: 1140px;
+  height: 50px;
+  background: #fff5e5;
+  display: block;
+  font-size: 15px;
+  color: #999;
+  text-align: center;
+  line-height: 50px;
+}
+.main section .notice {
+  width: 528px;
+  margin-top: 59px;
+  margin-left: 306px;
+}
+.main section .notice .light {
+  width: 15px;
+  height: 16px;
+  display: inline-block;
+  background: url(../img/light.png);
+}
+.main section .notice .alert {
+  width: 100%;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 16px;
+  color: #fa6460;
+  display: block;
+  margin-left: 8px;
+}
+.main section .notice .alert_success {
+  width: 100%;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 16px;
+  color: #99c64a;
+  display: block;
+  margin-left: 8px;
+}
+.main section .upload {
+  width: 368px;
+  height: 398px;
+  background: #ebf6fc;
+  border: 1px solid #eaeff1;
+  margin-top: 22px;
+  margin-left: 211px;
+  position: relative;
+  text-align: center;
+}
+.main section .upload .limit {
+  position: absolute;
+  bottom: -34px;
+  left: 50px;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+.main section .upload #imghead {
+  margin-top: 155px;
+}
+.main section .upload .plus {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  line-height: 160px;
+  font-size: 160px;
+  color: #ccc;
+  font-weight: 700;
+  background: #ebf6fc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+  margin-top: -80px;
+}
+.main section .upload .glass {
+  width: 34px;
+  height: 34px;
+  background: url(../img/glass.png);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.main section .sample {
+  width: 300px;
+  height: 406px;
+  margin-top: 22px;
+  margin-right: 210px;
+  background: url(../img/sample.png);
+  position: relative;
+}
+.main section .sample .example {
+  position: absolute;
+  bottom: -34px;
+  left: 136px;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+.main section .foot {
+  width: 383px;
+  height: 120px;
+  margin-top: 497px;
+  margin-left: 385px;
+  overflow: hidden;
+}
+.main section .foot .btn {
+  width: 136px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #29a9db;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  border-radius: 4px;
+  margin-top: 42px;
+  margin-left: 123px;
+}
+.main section .foot .foottxt {
+  font-size: 14px;
+  color: #a1ca5c;
+  display: block;
+  margin-top: 20px;
+}

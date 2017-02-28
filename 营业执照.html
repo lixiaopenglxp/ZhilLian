@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的营业执照</title>
+	<link rel="stylesheet" href="css/licnse.css">
+	<link rel="stylesheet" href="css/base.css">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/license.js"></script>
+</head>
+<body>
+	<div class="main">
+		<header class="clearfix">
+			<a href="javascript:;" class="logo"></a>
+			<span class="title license_text" >我的营业执照</span>
+			<a href="javascript:;" class="fr enter">&gt;&gt;</a>
+			<a href="frame.html" class="fr back license_text">返回工作台</a>
+			
+		</header>
+		<section>
+			<span class="hint license_text">新用户营业执照审核通过后将赠送30智联币</span>
+			<div class="notice clearfix">
+				<span class="alert fl license_text">
+					请您添加图片！
+					<!-- <i class="light"></i> -->
+					<!-- 您上传的营业执照由于 "营业执照太模糊" 没有审核通过,请重新提交! -->
+				</span>
+			</div>
+			<div class="upload fl">
+			<span class="limit license_text">仅支持gif、jpg、png格式,大小不超过3M</span>
+				<!-- <img src="img/license.png" alt=""/> -->
+				<!-- <a href="javascript:;" class="plus">+</a>
+				<a href="javascript:;" class="glass"></a>-->
+				<div id="addCommodityIndex">
+		             <!--input-group start-->
+		            <div class="input-group row">
+		                <div class="col-sm-3">
+		                    <label></label>
+		                </div>
+		                <div class="col-sm-9 big-photo">
+		                	<div id="preview">
+		                        <img id="imghead" border="0" src="img/photo_icon.png" width="90" height="90" onclick="$('#previewImg').click();">
+		                     </div>         
+		                    <input type="file" onchange="previewImage(this)" style="display: none;" id="previewImg" accept="image/png,image/gif,image/jpg">
+		                	<!--<input id="uploaderInput" class="uploader__input" style="display: none;" type="file" accept="" multiple="">-->
+		                </div>
+		            </div>
+		            <!--input-group end-->
+				</div>
+			</div>
+			<div class="sample fr">
+				<span class="example license_text">样例</span>
+			</div>
+			<div class="foot">
+				<input type="button" value="上传" class="btn">
+				<span class="foottxt license_text">营业执照仅限于审核资质,不会像第三方透露,请放心上传!</span>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

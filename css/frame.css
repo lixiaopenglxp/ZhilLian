@@ -1,0 +1,244 @@
+header {
+  width: 100%;
+  height: 90px;
+}
+header .logo {
+  width: 180px;
+  height: 90px;
+}
+header .logo .logo_img {
+  display: block;
+  width: 180px;
+  height: 90px;
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -999em;
+}
+header .bar {
+  width: 1040px;
+  height: 90px;
+  position: relative;
+}
+header .bar .search {
+  width: 424px;
+  height: 44px;
+  background: #f0f3fb;
+  border-radius: 3px;
+  margin-top: 23px;
+  margin-left: 20px;
+  padding-left: 16px;
+  font-size: 14px;
+}
+header .bar .search_img {
+  width: 40px;
+  height: 40px;
+  background: url(../img/fangdajing.png) no-repeat;
+  position: absolute;
+  top: 25px;
+  left: 417px;
+}
+header .bar a {
+  color: #999999;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+}
+header .bar .recharge {
+  width: 52px;
+  height: 90px;
+  margin-left: 103px;
+  line-height: 90px;
+  padding-left: 48px;
+  position: relative;
+}
+header .bar .bar_active {
+  background: #f0f3fb;
+}
+header .bar .message {
+  width: 52px;
+  height: 90px;
+  line-height: 90px;
+  padding-left: 48px;
+  position: relative;
+}
+header .bar .icon {
+  position: absolute;
+  left: 20px;
+  top: 35px;
+  width: 20px;
+  height: 22px;
+  background: url(../img/sprite1.png) no-repeat;
+}
+header .bar .pos20 {
+  background-position: -20px 0px;
+}
+header .bar .icon2 {
+  padding: 0 5px 0 5px;
+  background: #fa6460;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  top: 26px;
+  left: 30px;
+}
+header .bar .user {
+  width: 249px;
+  height: 40px;
+  margin-top: 25px;
+  line-height: 40px;
+  padding-left: 26px;
+}
+/*section*/
+section {
+  width: 100%;
+  height: 1141px;
+  position: relative;
+}
+section nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section nav .big_menu {
+  width: 180px;
+  height: 1141px;
+  background: #2a303e;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+}
+section nav .big_menu .big_li a {
+  height: 56px;
+  display: block;
+  line-height: 56px;
+  padding-left: 58px;
+  position: relative;
+  color: #fff;
+}
+section nav .big_menu .big_li a .nav_icon {
+  width: 16px;
+  height: 16px;
+  background: url(../img/sprite2.png) no-repeat;
+  position: absolute;
+  top: 21px;
+  left: 30px;
+}
+section nav .big_menu .big_li a .more {
+  width: 10px;
+  height: 7px;
+  background: url(../img/more.png) no-repeat;
+  position: absolute;
+  top: 26px;
+  right: 40px;
+  transition: 0.5s all ease;
+}
+section nav .big_menu .big_li a .post0 {
+  background-position: 0px 0px;
+}
+section nav .big_menu .big_li a .post1 {
+  background-position: 0px -16px;
+}
+section nav .big_menu .big_li a .post2 {
+  background-position: 0px -32px;
+}
+section nav .big_menu .big_li a .post3 {
+  background-position: 0px -48px;
+}
+section nav .big_menu .big_li a .post4 {
+  background-position: 0px -64px;
+}
+section nav .big_menu .big_li a .post5 {
+  background-position: 0px -80px;
+}
+section nav .big_menu .big_li a .post6 {
+  background-position: 0px -96px;
+}
+section nav .big_menu .big_li a .post7 {
+  background-position: 0px -112px;
+}
+section nav .big_menu .big_li a .post8 {
+  background-position: 0px -128px;
+}
+section nav .big_menu .nav_active {
+  background: #296d8d;
+}
+section nav .big_menu .lt_menu {
+  transition: 0.3s all ease-in;
+  overflow: hidden;
+  height: 0;
+}
+section nav .big_menu .lt_menu .lt_li a {
+  height: 56px;
+  display: block;
+  color: #fff;
+  line-height: 56px;
+  padding-left: 70px;
+  position: relative;
+}
+section nav .big_menu .lt_menu .lt_li a .circle {
+  position: absolute;
+  top: 25px;
+  left: 58px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+}
+section nav .big_menu .lt_menu .nav_lt_active {
+  background: #222632;
+}
+section .contain {
+  width: 100%;
+  height: 1140px;
+  background: #e8ebf3;
+  border-top: 1px solid #ccc;
+}
+section .contain .tab {
+  width: 1000px;
+  margin-left: 199px;
+  margin-top: 20px;
+}
+section .contain .tab .btn_menu {
+  width: 694px;
+  height: 45px;
+}
+section .contain .tab .btn_menu .btn {
+  background: #fff;
+  width: 98px;
+  height: 44px;
+  border: 1px solid #d3d8df;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 5px 5px 0 0;
+  line-height: 44px;
+  text-align: center;
+  color: #999999;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei';
+  cursor: pointer;
+}
+section .contain .tab .btn_menu .last_btn {
+  border-right: 1px solid #d3d8df;
+}
+section .contain .tab .btn_menu .tab_active {
+  background: #29a9db;
+  color: #fff;
+  border: 1px solid #3eaae1;
+  border-right: none;
+}
+section .contain .tab .contain_menu {
+  border-top: 2px solid #3eaae1;
+  position: relative;
+}
+section .contain .tab .contain_menu .page {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: #fff;
+}
+section .contain .tab .contain_menu .contain_active {
+  display: block;
+}

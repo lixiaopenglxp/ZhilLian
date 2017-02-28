@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css\111.css">
+	<link rel="stylesheet" type="text/css" href="css\base.css">
+	<style>
+	</style>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script >
+        // window.onload=function(){
+
+        // 	var aInp=document.getElementsByTagName('input');
+        //   for(var i=0;i<aInp.length;i++){
+        //     aInp[i].onfocus=function(){
+        //           var aR=this.parentNode.parentNode.getElementsByTagName('i')[0];
+        //           var aS=this.parentNode.parentNode.getElementsByTagName('span')[0];
+        //           if(aS){
+                       
+        //                aS.innerHTML='';
+        //              }
+        //           if(aR){
+        //              this.style.border='1px solid green';
+        //           }
+        //     };
+        //     aInp[i].onblur=function(){
+        //           var aR=this.parentNode.parentNode.getElementsByTagName('i')[0];
+        //           var aS=this.parentNode.parentNode.getElementsByTagName('span')[0];
+        //           if(aR&&this.value==''){
+        //              this.style.border='1px solid red';
+        //              if(aS){
+        //                aS.className='error';
+        //                aS.innerHTML='不能为空！'
+        //              }
+                     
+        //           }
+        //           if(this.value){
+        //             this.style.border='1px solid #ccc';
+        //           }
+        //     };
+
+        //   }
+          //点击
+        
+        // };
+        $(document).ready(function(){
+                 var tloadname= /^[\u4e00-\u9fa5]{2,5}$/;
+                 $('#btn').on('click',function(){
+                    if(!$('#loadname').val()){
+                       $('#loadname').css({'border-color':'red','border-style':'solid','border-width':'1px'});
+                       $('tr').eq(0).children().eq(2).html('<span class="error">不能为空！</span>');
+                    }else{
+                       if(!tloadname.test($('#loadname').val())){
+                        $('#loadname').css({'border-color':'red','border-style':'solid','border-width':'1px'});
+                        $('tr').eq(0).children().eq(2).html('<span class="error">用户名为2-5位中文汉字</span>');
+                       }else{
+                         $('#loadname').css({'border-color':'green','border-style':'solid','border-width':'1px'});
+                         $('tr').eq(0).children().eq(2).html('');
+                       }
+                    }
+                  })  
+                    function check(obj,reg){
+                       if(!$(obj).val()){
+                             $(obj).css({'border-color':'red','border-style':'solid','border-width':'1px'});
+                             $('tr').eq(1).children().eq(2).html('<span class="error">不能为空！</span>');
+                          }else{
+                             if(!reg.test($(obj).val())){
+                              $(obj).css({'border-color':'red','border-style':'solid','border-width':'1px'});
+                              $('tr').eq(1).children().eq(2).html('<span class="error">用户名为2-5位中文汉字</span>');
+                             }else{
+                               $(obj).css({'border-color':'green','border-style':'solid','border-width':'1px'});
+                               $('tr').eq(1).children().eq(2).html('');
+                             }
+                          }
+                       }
+                    };
+                    //check('#usename','tloadname')
+                    
+        });
+	</script>
+</head>
+<body>
+	<div class="zhxx_box">
+        <form action="" method="post">
+              <table>
+                  <tbody>
+                       <tr>
+                           <td class="leftbox"><i>*</i>登陆名：</td>
+                           <td ><input type="text" name="loadname" id="loadname" ></td>
+                           <td><span class="error"></span></td>
+                       </tr>
+                      <tr>
+                           <td class="leftbox"><i>*</i>姓名：</td>
+                           <td ><input type="text" name="usename" id="usename" ></td>
+                           <td><span class="error"></span></td>
+                       </tr>
+                       <tr>
+                           <td class="leftbox"><i>*</i>邮箱：</td>
+                           <td ><input type="text" name="mall" id="mall" ></td>
+                           <td><span class="error"></span></td>
+                       </tr>
+                       <tr>
+                           <td class="leftbox"><i>*</i>手机：</td>
+                           <td ><input type="text" name="phone" id="phone" ></td>
+                           <td ><span class="sjpic"></span></td>
+                       </tr>
+                       <tr>
+                           <td class="leftbox"><i>*</i>验证码：</td>
+                           <td ><input class="w4"  type="text" name="again" id="again" ><a href="javascript:;" class="get">获取验证码</a></td>
+                           <td ></td>
+                       </tr>
+                       <tr>
+                           <td class="leftbox">座机：</td>
+                           <td ><input class="w1" type="text" name="telphone1" ><input class="w2" type="text" name="telphone2" ><input class="w3" type="text" name="telphone3"></td>
+                           <td></td>
+                       </tr>
+                  </tbody> 
+              </table>
+              <a id="btn" href="javascript:;" class="renew">更新</a>
+        </form>
+	</div>
+</body>
+</html>

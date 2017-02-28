@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.zml_box {
+  width: 1000px;
+  height: 1099px;
+  font-size: 14px;
+  color: #707070;
+  position: relative;
+}
+.zml_box .left {
+  display: block;
+  width: 92px;
+  height: 34px;
+  text-align: right;
+  line-height: 34px;
+  background: url(../img/zml-xing.png) no-repeat 7px 12px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.zml_box .right {
+  width: 308px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 165px;
+  margin-top: -35px;
+  float: left;
+  padding-left: 14px;
+  color: #cfcfcf;
+}
+.zml_box .mod {
+  margin-top: 30px;
+}
+.zml_box .zml-logo {
+  position: relative;
+}
+.zml_box .zml-logo .big-photo img {
+  position: absolute;
+  left: 165px;
+  top: 0px;
+}
+.zml_box .zml-logo .change {
+  position: absolute;
+  left: 270px;
+  top: 70px;
+  color: #37afdd;
+}
+.zml_box .zhy {
+  background: url(../img/zml-xing.png) no-repeat 0px 12px;
+  margin-top: 70px;
+}
+.zml_box select {
+  display: block;
+  width: 168px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  left: 165px;
+  color: #707070;
+  padding-left: 12px;
+}
+.zml_box .zml-zhys {
+  top: 243px;
+}
+.zml_box .chy {
+  background: none;
+  margin-top: 28px;
+}
+.zml_box .zml-chys {
+  margin-top: -32px;
+}
+.zml_box .list {
+  margin-top: 28px;
+}
+.zml_box .type {
+  margin-top: 28px;
+}
+.zml_box .gsgm {
+  position: relative;
+}
+.zml_box .gsgm input {
+  height: 34px;
+  border: 1px solid #ccc;
+  padding-left: 12px;
+  border-radius: 4px;
+  color: #707070;
+}
+.zml_box .gsgm .add {
+  width: 78px;
+  height: 34px;
+  position: absolute;
+  left: 165px;
+  top: 0px;
+}
+.zml_box .gsgm .address {
+  width: 308px;
+  position: absolute;
+  left: 265px;
+  top: 0px;
+}
+.zml_box .bm {
+  background: none;
+}
+.zml_box .yzbm {
+  width: 156px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  left: 165px;
+  top: 555px;
+  padding-left: 12px;
+}
+.zml_box .gsjs .text-one {
+  width: 571px;
+  height: 252px;
+  border: 1px solid #ccc;
+  position: absolute;
+  left: 165px;
+  top: 620px;
+  border-radius: 4px;
+}
+.zml_box .gsjs .text-one .text-t {
+  width: 570px;
+  height: 30px;
+  border: 1px solid #ccc;
+  position: relative;
+  background: #f6f6f6;
+}
+.zml_box .gsjs .text-one .text-t .size {
+  width: 78px;
+  height: 20px;
+  border-radius: 0;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.zml_box .gsjs .text-one .text-t .tist {
+  width: 45px;
+  height: 20px;
+  position: absolute;
+  left: 90px;
+  top: 5px;
+  border: none;
+  background: #f6f6f6;
+}
+.zml_box .gsjs .text-one .text-b {
+  width: 570px;
+  height: 200px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.zml_box .gsjs .text-one .text-bottom {
+  font-size: 12px;
+  color: #aaa;
+  padding-right: 10px;
+  line-height: 13px;
+  text-align: right;
+}
+.zml_box .www .gszy {
+  position: absolute;
+  top: 870px;
+  background: none;
+}
+.zml_box .www .wangz {
+  width: 246px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: 900px;
+  left: 165px;
+  padding-left: 12px;
+  color: #707070;
+}
+.zml_box .photo {
+  position: absolute;
+  top: 920px;
+}
+.zml_box .btn {
+  width: 77px;
+  height: 36px;
+  background: #29a9db;
+  border-radius: 4px;
+  position: absolute;
+  top: 950px;
+  left: 165px;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+}
+.zml_box .color .save {
+  width: 112px;
+  height: 40px;
+  background: #29a9db;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  margin-left: -56px;
+  bottom: 20px;
+  color: #fff;
+}
+.zml_box .map {
+  position: absolute;
+  left: 600px;
+  top: 280px;
+  width: 273px;
+  height: 251px;
+  background: url(../img/map.png) no-repeat;
+}

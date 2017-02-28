@@ -1,0 +1,180 @@
+.bg {
+  width: 1000px;
+  height: 890px;
+  background: #FFFFFF;
+}
+.bg .first {
+  width: 100%;
+  height: 39px;
+  padding-top: 39px;
+  font-size: 18px;
+  text-align: center;
+  color: #666;
+}
+.bg .two {
+  width: 100%;
+  height: 50px;
+  background: #fff5e5;
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  color: #666;
+}
+.bg .two i {
+  color: #fa6763;
+}
+.bg .three {
+  width: 100%;
+  height: 233px;
+  margin-top: 49px;
+}
+.bg .three .fl {
+  width: 343px;
+  height: 100%;
+}
+.bg .three .fl .i-one {
+  width: 3px;
+  height: 12px;
+  background: #29a9db;
+  display: inline-block;
+  margin: 2px 0 0 102px;
+}
+.bg .three .fl strong {
+  color: #333333;
+  font-size: 16px;
+  margin: 8px;
+}
+.bg .three .fl .ewm {
+  width: 140px;
+  height: 140px;
+  margin: 10px 0 0 201px;
+}
+.bg .three .fl span {
+  width: 140px;
+  height: 14px;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 203px;
+  line-height: 14px;
+  display: inline-block;
+}
+.bg .three .fl a {
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.bg .three .fl .img1 {
+  margin-left: 221px;
+  margin-top: 6px;
+}
+.bg .three .fl .img2 {
+  margin-left: 11px;
+  margin-top: 6px;
+}
+.bg .three .fl .img2 img {
+  position: absolute;
+  left: 0;
+  top: -28px;
+}
+.bg .three .fl .img3 {
+  margin-left: 11px;
+  margin-top: 6px;
+}
+.bg .three .fl .img3 img {
+  position: absolute;
+  left: 0;
+  top: -58px;
+}
+.bg .three .fr {
+  width: 654px;
+  height: 233px;
+}
+.bg .three .fr .i-two {
+  width: 3px;
+  height: 12px;
+  background: #29a9db;
+  display: inline-block;
+  margin: 2px 0 0 117px;
+}
+.bg .three .fr strong {
+  color: #333333;
+  font-size: 16px;
+  margin: 10px;
+}
+.bg .three .fr .text {
+  width: 345px;
+  height: 36px;
+  border: 1px solid #e4e4e4;
+  margin-left: 117px;
+  margin-top: 8px;
+  font-size: 16px;
+  padding-left: 9px;
+}
+.bg .three .fr .btn {
+  width: 100px;
+  height: 36px;
+  background: #29a9db;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.bg .three .fr em {
+  height: 12px;
+  color: #db252b;
+  font-size: 12px;
+  margin-left: 127px;
+}
+.bg .three .fr p {
+  width: 310px;
+  height: 129px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #e6e6e6;
+  text-indent: 2em;
+  line-height: 20px;
+  margin-left: 115px;
+  margin-top: 9px;
+  padding: 5px 28px 0 18px;
+}
+.bg .last {
+  width: 100%;
+  height: 411px;
+  margin-top: 69px;
+}
+.bg .last .i-three {
+  width: 3px;
+  height: 12px;
+  background: #29a9db;
+  display: inline-block;
+  margin: 2px 0 0 104px;
+}
+.bg .last strong {
+  color: #333333;
+  font-size: 16px;
+  margin: 10px;
+}
+.bg .last span {
+  font-size: 14px;
+  color: #666666;
+}
+.bg .last .txt {
+  width: 695px;
+  height: 36px;
+  font-size: 16px;
+  padding-left: 17px;
+  margin-left: 102px;
+  margin-top: 8px;
+  border: 1px solid #e4e4e4;
+}
+.bg .last .btn1 {
+  width: 100px;
+  height: 36px;
+  background: #29a9db;
+  border-radius: 3px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}

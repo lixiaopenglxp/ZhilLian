@@ -1,0 +1,122 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/index-zml.css">
+<link rel="stylesheet" href="css/base.css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/froala_editor.min.css" rel="stylesheet" type="text/css">
+<style>
+</style> 
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/libs/jquery-1.11.1.min.js"></script>
+<script src="js/froala_editor.min.js"></script>
+<script src="js/plugins/block_styles.min.js"></script>
+<script src="js/plugins/colors.min.js"></script>
+<script src="js/plugins/font_family.min.js"></script>
+<script src="js/plugins/font_size.min.js"></script>
+<script src="js/zml-logo.js"></script>
+</head>
+<body>
+<div id="addCommodityIndex">
+	<div class="zml_box">
+		<div>
+			<span class="left">公司名称：</span>
+			<input type="text"  placeholder="北京蓝雨科技股份有限公司" class="right">
+		</div>
+		<div>
+			<span class="left mod">公司简历：</span>
+			<input type="text" placeholder="蓝雨科技" class="right">
+		</div>
+		<div class="zml-logo">
+			<span class="left">公司logo：</span>
+			 <!--input-group start-->
+            
+            <div class="col-sm-9 big-photo">
+            	<div id="preview">
+                    <img id="imghead" border="0" src="img/zml-logo.png" width="90" height="90" >
+
+                </div>         
+                <input type="file" onchange="previewImage(this)" style="display: none;" id="previewImg">
+            	<!-- <input id="uploaderInput" class="uploader__input" style="display: none;" type="file" accept="" multiple=""> -->
+            </div>
+            <span class="change" onclick="$('#previewImg').click();" style="cursor: pointer">修改</span>
+            
+            <!--input-group end-->
+		</div>
+		<div class="zml-zhy">
+			<span class="left mod zhy">公司主行业：</span>
+			<select  class="zml-zhys">
+				<option>互联网/电子商务</option>
+				<option>农、林、牧、渔业</option>
+				<option>住宿和餐饮业</option>
+				<option>房地产业</option>
+			</select>
+		</div>
+		<div>
+			<span class="left mod zhy chy">公司次行业：</span>
+			<select class="zml-chys">
+				<option>IT硬件</option>
+				<option>农、林、牧、渔业</option>
+				<option>住宿和餐饮业</option>
+				<option>房地产业</option>
+			</select>
+		</div>
+		<div>
+			<span class="left mod zhy list">公司性质：</span>
+			<select class="zml-chys">
+				<option>国企</option>
+				<option>民企</option>
+				<option>外企</option>
+				<option>其它</option>
+			</select>
+		</div>
+		<div>
+			<span class="left mod type">公司规模：</span>
+			<select class="zml-chys">
+				<option>20-99人</option>
+				<option>100-500人</option>
+				<option>500-1000人</option>
+				<option>1000人以上</option>
+			</select>
+		</div>
+		<div class="gsgm">
+			<span class="left mod zhy type">公司地址：</span>
+			<input type="text" placeholder="北京" class="add">
+			<input type="text" placeholder="望京soho3塔302" class="address">
+		</div>
+		<div>
+			<span class="left mod zhy bm type">邮政编码：</span>
+			<input type="text" placeholder="5100000" class="yzbm">
+		</div>
+		<div class="gsjs">
+			<span class="left mod zhy type">公司介绍：</span>
+			<div class="text-one">	
+				<section id="editor">
+     				 <div id='edit' style="margin-top: 0px;">
+         
+          
+      				</div>
+  				</section>
+				
+				<div class="text-bottom">最多70000个字符</div>
+			</div>
+		</div>
+		<div class="www">
+			<span class="left mod gszy">公司主页：</span>
+			<input type="text" placeholder="http://www.zhaopin.com" class="wangz"/>
+		</div>
+		<div>
+			<span class="left mod photo">营业执照：</span>
+			<a href="营业执照.html" class="btn">查看</a>
+		</div>
+		<div class="color">
+			<input type="submit" class="save" value="保存" />
+		</div>
+		<div class="map"></div>
+		
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/frame.css" />
+	<link rel="stylesheet" type="text/css" href="css/111.css">
+	<link rel="stylesheet" type="text/css" href="css\111.css">
+	<link rel="stylesheet" type="text/css" href="css\111.css">
+	<link rel="stylesheet" type="text/css" href="css/111.css">
+	<link rel="stylesheet" href="css/yaoqing.css" />
+	<link rel="stylesheet" href="css/xiaofei.css" />
+	<link rel="stylesheet" href="css/index-zml.css">
+	<link rel="stylesheet" href="css/datainput.css" />
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/xiaofei.js"></script>
+	<script src="js/frame.js"></script>
+
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script src="js/libs/jquery-1.11.1.min.js"></script>
+	<script src="js/froala_editor.min.js"></script>
+	<script src="js/plugins/block_styles.min.js"></script>
+	<script src="js/plugins/colors.min.js"></script>
+	<script src="js/plugins/font_family.min.js"></script>
+	<script src="js/plugins/font_size.min.js"></script>
+	<script src="js/zml-logo.js"></script>
+	
+	<script type="text/javascript" src="http://www.js-css.cn/jscode/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.date_input.pack.js"></script> 
+</head>
+<body>
+	<header>
+		<h1 class="logo fl">
+			<a class="logo_img" href="javascript:;">智联logo</a>
+		</h1>
+		<div class="bar fl">
+			<input class="search fl" type="text" name="" id="" placeholder="请输入关键字，多个词用空格隔开" />
+			<a class="search_img" href="javascript:;"></a>
+			<a class="hover recharge fl" href="javascript:;"><i class="icon"></i>充值</a>
+			<a class="hover message fl" href="javascript:;"><i class="icon pos20"></i><i class="icon2">2</i>消息</a>
+			<a class="user fl" href="javascript:;">北京华乐天信息技术有限公司</a>
+		</div>
+	</header>
+	<section>
+		<nav>
+			<ul class="big_menu">
+				<li class="nav_active big_li"><a href="frame.html"><i class="nav_icon post0"></i>工作台</a></li>
+				<li class="big_li"><a href="frame2.html"><i class="nav_icon post1"></i>简历管理</a></li>
+				<li class="big_li"><a href="frame3.html"><i class="nav_icon post2"></i>职位管理</a></li>
+				<li class="big_li"><a href="frame4.html"><i class="nav_icon post3"></i>搜人才</a></li>
+				<li class="big_li"><a href="frame5.html"><i class="nav_icon post4"></i>勾搭</a></li>
+				<li class="big_li"><a href="frame6.html"><i class="nav_icon post5"></i>保面试</a></li>
+				<li class="big_li"><a href="frame7.html"><i class="nav_icon post6"></i>HR娱乐区</a></li>
+				<li class="big_li"><a href="javascript:;"><i class="nav_icon post7"></i>更多服务<i class="more"></i></a></li>
+				<ul class="lt_menu">
+					<li class="lt_li nav_lt_active"><a href="javascript:;"><i class="circle"></i>智联测评</a></li>
+					<li class="lt_li"><a href="javascript:;"><i class="circle"></i>校园招聘</a></li>
+					<li class="lt_li"><a href="javascript:;"><i class="circle"></i>高端招聘</a></li>
+				</ul>
+				<li class="big_li"><a href="frame8.html"><i class="nav_icon post8"></i>系统帮助</a></li>
+			</ul>
+		</nav>
+		<div class="contain">
+			<div class="tab clearfix" id="tab">
+				<ol class="btn_menu clearfix">
+					<li class="btn fl tab_active">账户信息</li>
+					<li class="btn fl">账户安全</li>
+					<li class="btn fl">公司信息</li>
+					<li class="btn fl">资产信息</li>
+					<li class="btn fl">充值记录</li>
+					<li class="btn fl">消费明细</li>
+					<li class="btn last_btn fl">邀请注册</li>
+				</ol>
+				<ul class="contain_menu">
+					<li class="page contain_active">
+						<div class="zhxx_box">
+					        <form action="" method="post">
+					              <table>
+					                  <tbody>
+					                       <tr>
+					                           <td class="leftbox"><i>*</i>登陆名：</td>
+					                           <td ><input type="text" name="loadname" id="input1" ></td>
+					                           <td><span class="error"></span></td>
+					                       </tr>
+					                      <tr>
+					                           <td class="leftbox"><i>*</i>姓名：</td>
+					                           <td ><input type="text" name="usename" ></td>
+					                           <td><span class="error"></span></td>
+					                       </tr>
+					                       <tr>
+					                           <td class="leftbox"><i>*</i>邮箱：</td>
+					                           <td ><input type="text" name="mall" ></td>
+					                           <td><span class="error"></span></td>
+					                       </tr>
+					                       <tr>
+					                           <td class="leftbox"><i>*</i>手机：</td>
+					                           <td ><input type="text" name="phone" ></td>
+					                           <td ><span class="sjpic"></span></td>
+					                       </tr>
+					                       <tr>
+					                           <td class="leftbox"><i>*</i>验证码：</td>
+					                           <td ><input class="w4"  type="text" name="again" ><a href="javascript:;" class="get">获取验证码</a></td>
+					                           <td ></td>
+					                       </tr>
+					                       <tr>
+					                           <td class="leftbox">座机：</td>
+					                           <td ><input class="w1" type="text" name="telphone1" ><input class="w2" type="text" name="telphone2" ><input class="w3" type="text" name="telphone3"></td>
+					                           <td></td>
+					                       </tr>
+					                  </tbody> 
+					              </table>
+					              <a href="javascript:;" class="renew">更新</a>
+					        </form>
+						</div>
+					</li>
+					<li class="page">
+						<div class="zhaq_box">
+					         <form action="" >
+					               <table>
+					                   <tbody>
+					                       <tr>
+
+					                          <td><span class="password">登陆密码</span></td>
+					                          <td><input type="text" placeholder="互联网账户存在被盗风险，建议您定期修改账户密码以保护账户安全" /></td>
+					                          <td><a href="javascript:;">修改</a></td>
+					                       </tr>
+					                   </tbody>
+					               </table>
+					         </form>
+						</div>
+					</li>
+					<li class="page">
+						<div id="addCommodityIndex">
+							<div class="zml_box">
+								<div>
+									<span class="left">公司名称：</span>
+									<input type="text"  placeholder="北京蓝雨科技股份有限公司" class="right">
+								</div>
+								<div>
+									<span class="left mod">公司简历：</span>
+									<input type="text" placeholder="蓝雨科技" class="right">
+								</div>
+								<div class="zml-logo">
+									<span class="left">公司logo：</span>
+									 <!--input-group start-->
+						            
+						            <div class="col-sm-9 big-photo">
+						            	<div id="preview">
+						                    <img id="imghead" border="0" src="img/zml-logo.png" width="90" height="90" >
+
+						                </div>         
+						                <input type="file" onchange="previewImage(this)" style="display: none;" id="previewImg">
+						            	<!-- <input id="uploaderInput" class="uploader__input" style="display: none;" type="file" accept="" multiple=""> -->
+						            </div>
+						            <span class="change" onclick="$('#previewImg').click();" style="cursor: pointer">修改</span>
+						            
+						            <!--input-group end-->
+								</div>
+								<div class="zml-zhy">
+									<span class="left mod zhy">公司主行业：</span>
+									<select  class="zml-zhys">
+										<option>互联网/电子商务</option>
+										<option>农、林、牧、渔业</option>
+										<option>住宿和餐饮业</option>
+										<option>房地产业</option>
+									</select>
+								</div>
+								<div>
+									<span class="left mod zhy chy">公司次行业：</span>
+									<select class="zml-chys">
+										<option>IT硬件</option>
+										<option>农、林、牧、渔业</option>
+										<option>住宿和餐饮业</option>
+										<option>房地产业</option>
+									</select>
+								</div>
+								<div>
+									<span class="left mod zhy list">公司性质：</span>
+									<select class="zml-chys">
+										<option>国企</option>
+										<option>民企</option>
+										<option>外企</option>
+										<option>其它</option>
+									</select>
+								</div>
+								<div>
+									<span class="left mod type">公司规模：</span>
+									<select class="zml-chys">
+										<option>20-99人</option>
+										<option>100-500人</option>
+										<option>500-1000人</option>
+										<option>1000人以上</option>
+									</select>
+								</div>
+								<div class="gsgm">
+									<span class="left mod zhy type">公司地址：</span>
+									<input type="text" placeholder="北京" class="add">
+									<input type="text" placeholder="望京soho3塔302" class="address">
+								</div>
+								<div>
+									<span class="left mod zhy bm type">邮政编码：</span>
+									<input type="text" placeholder="5100000" class="yzbm">
+								</div>
+								<div class="gsjs">
+									<span class="left mod zhy type">公司介绍：</span>
+									<div class="text-one">	
+										<section id="editor">
+						     				 <div id='edit' style="margin-top: 0px;">
+						         
+						          
+						      				</div>
+						  				</section>
+										
+										<div class="text-bottom">最多70000个字符</div>
+									</div>
+								</div>
+								<div class="www">
+									<span class="left mod gszy">公司主页：</span>
+									<input type="text" placeholder="http://www.zhaopin.com" class="wangz"/>
+								</div>
+								<div>
+									<span class="left mod photo">营业执照：</span>
+									<a href="营业执照.html" class="btn">查看</a>
+								</div>
+								<div class="color">
+									<input type="submit" class="save" value="保存" />
+								</div>
+								<div class="map"></div>
+								
+							</div>
+						</div>
+					</li>
+					<li class="page">
+						<div class="zcxx">
+						     <div class="hello">
+						         <p>您好，橄榄枝产品以升级为“约聊”，您之前剩余的<span>XX</span>个橄榄枝专用币已全部转为智联币。</p>
+						         <a href="javascript:;">知道了，不在出现此提示信息。</a>
+						     </div>
+						     <div class="content">
+						          <div class="money">
+						                <h2>资金账户</h2>
+						                <ul class="clearfix">
+						                   <li><p>智联币金额(个)：<span>1111</span></p><a href="javascript:;">充值</a></li>
+						                   <li><p>本月获得(个)：<span>1111</span></p></li>
+						                   <li><p>即将过期(个)：<span>1111</span></p></li>
+						                   <li><p>本月总消耗(个)：<span>1111</span></p></li>
+						                </ul>
+						          </div>
+						          <div class="myshop">      
+									      <h2>我的优惠劵</h2>
+									      <div class="myshop-pic">
+										         <ul>
+										            <li><a href="javascript:;">未使用(<span>7</span>)</a></li>
+										            <li><a href="javascript:;">已使用(<span>167</span>)</a></li>
+										            <li class="last"><a href="javascript:;">已过期(<span>111</span>)</a></li>
+										         </ul>
+										         <ol>
+										             <li><img src="img/lxpshop-1.jpg" alt="优惠劵"></li> 
+										             <li><img src="img/lxpshop-2.jpg" alt="优惠劵"></li> 
+										             <li><img src="img/lxpshop-1.jpg" alt="优惠劵"></li> 
+										             <li><img src="img/lxpshop-2.jpg" alt="优惠劵"></li>  
+										             <li><img src="img/lxpshop-1.jpg" alt="优惠劵"></li> 
+										             <li><img src="img/lxpshop-2.jpg" alt="优惠劵"></li>   
+										         </ol>
+										   </div>
+							      </div>
+						     </div>
+						</div>
+					</li>
+					<li class="page">
+						<div class="czjl">
+						     <div class="topmenu clearfix">
+						          <div class="setdate fl">
+						               <span>起止时间：</span>
+						               <input type="text">
+						               <span>至</span>
+						               <input type="text">
+						          </div>
+						          <div class="search clearfix fl">
+						              <p class="fl p1">订单状态</p>
+						               <div class="searchbox fl">
+							                <p class="fl">全部</p>
+							                <ul class="fl">
+								                 <li>待支付</li>
+								                 <li>已支付</li>
+								                 <li>已生效</li>
+								                 <li>已失效</li>
+							                </ul>
+						               </div>
+						              <a class="fl" href="javascript:;">查询</a>
+						          </div>
+						          <div class="buy fl">
+						             <p class="fl">智联币：<span>111,222</span></p>
+						             <a  class="fl" href="javascript:;">充值</a>
+						          </div>
+						     </div>
+						     <table>
+							     <thead>
+									    <tr>
+							               <th class="width1">订单编号</th>
+							               <th class="width2">充值时间</th>
+							               <th class="width3">充值智联币(个)</th>
+							               <th class="width4">支付金额(元)</th>
+							               <th class="width5">是否开发票</th>
+							               <th class="width6">操作<br/><span>未支付订单3天后自动取消</span></th>
+							            </tr>
+								     </thead>
+								     <tbody>       
+								            <tr>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td class="blue">1</td>
+								            </tr>
+								            <tr>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td class="blue">1</td>
+								            </tr>
+								            <tr>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td>1</td>
+								               <td class="blue">1</td>
+								            </tr>
+								     </tbody>
+						           
+						     </table>
+						</div>
+					</li>
+					<li class="page">
+						<div class="bg">
+							<div class="firstly">
+								<span class="one">起止时间：</span>
+								<input type="text" placeholder="请选择开始时间" class="date_picker" />
+								<span class="two">至</span>
+								<input type="text" placeholder="请选择结束时间" class="date_picker" />
+								<span class="three">交易类型</span>
+								<a href="javastript:;" class="select">全部</a>
+								<span class="four">交易项目</span>
+								<a href="javastript:;"  class="select">全部</a>
+								<input type="button" value="查询" class="inp1" />
+							</div>
+							<div class="end">
+								<ul class="clearfix ul1">
+									<li class="fl li1">发生时间</li>
+									<li class="fl li2">交易截图</li>
+									<li class="fl li3">交易类型</li>
+									<li class="fl li3">交易数量</li>
+									<li class="fl li4">交易项目</li>
+								</ul>
+								<ul class="clearfix ul1 ul2">
+									<li class="fl li5">2016-11-11 17:44:01</li>
+									<li class="fl li6">ZLZP73294284665375</li>
+									<li class="fl li7">支出</li>
+									<li class="fl li7">-20</li>
+									<li class="fl li8">勾搭一下</li>
+								</ul>
+								<ul class="clearfix ul1 ul2 ul3">
+									<li class="fl li5">2016-11-11 17:44:01</li>
+									<li class="fl li6">ZLZP73294284665375</li>
+									<li class="fl li7">收入</li>
+									<li class="fl li7">+20</li>
+									<li class="fl li8">系统赠送</li>
+								</ul>
+								<ul class="clearfix ul1 ul2 ul3">
+									<li class="fl li5">2016-11-11 17:44:01</li>
+									<li class="fl li6">ZLZP73294284665375</li>
+									<li class="fl li7">支出</li>
+									<li class="fl li7">-10</li>
+									<li class="fl li8">发送橄榄枝</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="page">
+						<div class="bg">
+							<p class="first">邀请好友并通过审核，平台奖励您50个智联币</p>
+							<p class="two">您已邀请<i>1</i>人，已通过审核<i>0</i>人，奖励<i>0</i>个智联币</p>
+							<div class="three clearfix">
+								<div class="fl">
+									<i class="i-one"></i>
+									<strong>扫二维码</strong>
+									<img src="img/erweima.png" class="ewm"/>
+									<span>扫二维码邀请好友加入</span>
+									<a href="javascript:;" class="img1" ><img src="img/yaoqing.png"/></a>
+									<a href="javascript:;" class="img2" ><img src="img/yaoqing.png"/></a>
+									<a href="javascript:;" class="img3" ><img src="img/yaoqing.png"/></a>
+									
+								</div> 
+								<div class="fr">
+									<i class="i-two"></i>
+									<strong>邮箱邀请</strong>
+									<br />
+									<input type="text" placeholder="请输入邀请人的邮箱地址" class="text" />
+									<input type="button" value="发送" class="btn" />
+									<em>注：多邮箱用“；”分开，邮箱内容不可改</em>
+									<p>陈莎莎邀请您加入智联招聘企来端，体验新版IHR招聘平台，现在项目推广期，新公司注册将
+									赠送50个智联币，您客户以体验搞笑的招聘后台，快去体验吧！ http://rd2.zhaopin.com/portal/myrd/
+									reqnew.asp?za=2</p>
+								</div>
+							</div>
+							<div class="last">
+								<i class="i-three"></i>
+								<strong>连接邀请</strong>
+								<span>点击复制，复制到用户剪贴板，可以任意粘贴</span>
+								<br />
+								<input type="text" placeholder="您的邀请链接：http://rd2.zhaopin.com/portal/myrd/reqnew.asp?za=2" class="txt" />
+								<input type="button" value="复制" class="btn1" />
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
